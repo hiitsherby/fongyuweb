@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -55,31 +57,6 @@
 		 margin:0 12%;
 }
 
-	#headerpic{
-		width:2.5%;
-		 height:auto;
-		  float:left;
-		   margin-left:1%;
-		   margin-top:1%;}
-
-
-
-
-
-
-
-
-
-	@media screen and (max-width: 1000px) {
-
-		#headerpic{
-			width:4%;
-			height:auto;
-		  float:left;
-		   margin-top: 1.5%;
-}
-
-}	
 
 /* Box Model */
 
@@ -1784,14 +1761,23 @@
 
 	@media screen and (max-width: 540px) {
 		    #header img{
-            margin-top:3%;
-            width:4%;
+            margin-top:2.1%;
+            width:5%;
             height:auto;
             
             }
          }
 
 	@media screen and (max-width: 392px) {
+		    #header img{
+            margin-top:3.5%;
+            width:5%;
+            height:auto;
+            
+            }
+         }
+
+         	@media screen and (max-width: 320px) {
 		    #header img{
             margin-top:4%;
             width:5%;
@@ -1853,7 +1839,7 @@
 		}
 
 			.main.style1 h2 {
-				font-size: 300%;
+				font-size: 400%;
 				line-height: 100%;
 			}
 
@@ -2101,7 +2087,7 @@
 
 		#footer ul.menu {
 			position: absolute;
-			right: 2em;
+			right: 40%;
 			top: 0;
 			height: 5em;
 			line-height: 5em;
@@ -2298,4 +2284,6 @@
     width: 100%;
     height: 100%;
 }
+
+
 
